@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cian-Mosmart | Art Gallery</title>
+
+    <!-- ICONOS -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- TOASTIFY -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="navbar">
+
+        <!-- LOGO -->
+
+        <div class="logo">
+
+            <h1>Cian-Mosmart</h1>
+
+            <span>
+                DIGITAL • ART • GALLERY
+            </span>
+
+        </div>
+
+        <!-- MENU -->
+
+        <nav class="nav-links">
+
+            <!-- BOTON HOME -->
+
+            <a
+            href="../index.html"
+            class="inicio-btn">
+
+                <i class="bi bi-house-fill"></i>
+
+            </a>
+
+            <!-- CATEGORIAS -->
+
+            <button
+            class="boton-categoria active"
+            id="todos">
+
+                <i class="bi bi-grid-fill"></i>
+                Todos
+
+            </button>
+
+            <button
+            class="boton-categoria"
+            id="abstractos">
+
+                <i class="bi bi-palette-fill"></i>
+                Abstractos
+
+            </button>
+
+            <button
+            class="boton-categoria"
+            id="retratos">
+
+                <i class="bi bi-person-fill"></i>
+                Retratos
+
+            </button>
+
+            <button
+            class="boton-categoria"
+            id="modernos">
+
+                <i class="bi bi-brush-fill"></i>
+                Modernos
+
+            </button>
+
+        </nav>
+
+        <!-- CARRITO -->
+
+        <a
+        href="./carrito.html"
+        class="carrito-btn">
+
+            <i class="bi bi-bag-fill"></i>
+
+            <span id="numerito">
+                0
+            </span>
+
+        </a>
+
+    </header>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero">
+
+        <!-- EFECTOS -->
+
+        <div class="hero-circle hero-circle-1"></div>
+        <div class="hero-circle hero-circle-2"></div>
+
+        <!-- CONTENIDO -->
+
+        <div class="hero-content">
+
+            <p class="hero-mini">
+                COLECCIÓN ARTÍSTICA 2027
+            </p>
+
+            <h2>
+
+                Arte
+                <span>Creativo</span>
+                para inspirar emociones
+
+            </h2>
+
+            <p>
+
+                Descubre pinturas modernas,
+                arte abstracto y retratos únicos
+                creados con pasión y creatividad.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a
+                href="#productos"
+                class="hero-btn">
+
+                    <i class="bi bi-brush-fill"></i>
+                    Ver galería
+
+                </a>
+
+                <a
+                href="./carrito.html"
+                class="hero-btn hero-btn-outline">
+
+                    <i class="bi bi-bag-check-fill"></i>
+                    Comprar arte
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         PRODUCTOS
+    ========================== -->
+
+    <main id="productos">
+
+        <!-- TOP -->
+
+        <div class="top-title">
+
+            <div>
+
+                <p class="top-mini">
+                    OBRAS DESTACADAS
+                </p>
+
+                <h2 id="titulo-principal">
+                    Galería de Arte
+                </h2>
+
+            </div>
+
+        </div>
+
+        <!-- GRID -->
+
+        <div
+        class="contenedor-productos"
+        id="contenedor-productos">
+
+            <!-- JS -->
+
+        </div>
+
+    </main>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h2>Cian-Mosmart</h2>
+
+            <p>
+                Arte • Creatividad • Inspiración
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bi bi-facebook"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bi bi-tiktok"></i>
+                </a>
+
+            </div>
+
+            <span>
+                © 2027 Cian-Mosmart Art Gallery
+            </span>
+
+        </div>
+
+    </footer>
+
+    <!-- TOASTIFY -->
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/toastify-js">
+    </script>
+
+    <!-- SWEET ALERT -->
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/sweetalert2@11">
+    </script>
+
+    <!-- MAIN JS -->
+
+    <script src="./main.js"></script>
+
+</body>
+</html>

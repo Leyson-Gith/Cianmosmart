@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cian-Mosma | Arte</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css"/>
+
+  <!-- FUENTE -->
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,
+400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jura:wght@300..700&family=Poppins:ital,wght@0,
+100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+rel="stylesheet">
+
+  <!-- ICONOS -->
+  <script src="https://kit.fontawesome.com/35db202371.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- 🔥 NAVBAR TIPO TIENDA -->
+<header class="nav-container">
+
+  <div class="nav-top">
+
+    <!-- LOGO -->
+    <div class="logo">
+      <h1>Cian-Mosma</h1>
+      <span>ART • MUSIC • TEACHER</span>
+    </div>
+
+    <!-- MENÚ -->
+    <nav class="nav-menu">
+
+      <!-- BOTÓN HAMBURGUESA -->
+      <div class="menu-toggle" id="menu-toggle">
+        ☰
+      </div>
+
+      <!-- LINKS -->
+      <div class="nav-links" id="nav-links">
+        <a href="#sobre-yo">SOBRE MÍ</a>
+        <a href="#Galleria">ARTE</a>
+        <a href="#video">CONTENIDO</a>
+        <a href="#contacto">HABLEMOS</a>
+        <a href="./Tienda-Cian/shop_cianmosmart.html">TIENDA CIAN-MOSMART</a>
+      </div>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+  <div class="Tituo-base">
+      <h1>Cian-Mosma</h1>
+      <span>ART • MUSIC • TEACHER</span>
+    </div>
+
+<!-- 👤 SOBRE MÍ --> 
+    <section class="about-section" id="sobre-yo"> <div class="about-container"> 
+      <h2>Sobre Mí</h2> <p> Soy Ciro Antonio, artista colombiano. Mi arte expresa emociones y sueños en cada trazo. 
+
+      </p> <div class="about-content"> <div class="about-image"> 
+        <img src="./Img/Mi_Persona/PintorYo.jpeg" alt="Ciro Antonio"> 
+      </div> <div class="about-text"> <h2>Mi camino</h2> 
+       <p>
+        Desde pequeño me conecté con los colores y el arte. 
+        Soy profesor en una escuela y músico, el arte es una de mis grandes 
+        pasiones que eh desarrollo como hobby. Además, llevo un negocio enfocado 
+        en tácticas sobre ejercicios, combinando disciplina, creatividad y expresión 
+        en cada aspecto de mi vida.
+      </p>
+      </div> 
+    </div>
+    </div> </section>
+<!-- 🌄 HERO -->
+
+<header class="hero" id="Galleria">
+  <h1>Galería de Arte</h1>
+   <p>Obras originales · Conexione artisticas</p>
+</header>
+
+
+<!-- 🖼️ GALERÍA -->
+<section class="gallery-section">
+  <div class="grid-gallery" id="gallery-container"></div>
+</section>
+
+<!-- 🪟 MODAL -->
+<div id="modal" class="modal">
+  <span class="close">&times;</span>
+
+  <div class="modal-box">
+    <img class="modal-img" id="modal-img">
+
+    <div class="modal-info" id="modal-caption">
+      <!-- Aquí va la info dinámica -->
+    </div>
+  </div>
+
+  <span class="prev">&#10094;</span>
+  <span class="next">&#10095;</span>
+</div>
+
+
+<!-- 🎬 SECCIÓN VIDEO MP4 -->
+<section class="video-section" id="video">
+
+  <div class="video-content">
+
+    <h2>Contenido de Entrenamientos</h2>
+    <p>
+      Explora uno de mis videos sobre entrenamientos y disciplina.
+    </p>
+
+        <!-- VIDEO -->
+      <div class="video-box">
+
+        <video id="miVideo" controls muted>
+          <source src="./video/Pasos a seguir para pintar un retrato. Proceso retrato chica pelirroja I.mp4" type="video/mp4">
+          Tu navegador no soporta videos.
+        </video>
+
+      </div>
+
+  </div>
+
+</section>
+
+<!-- CONTACTO -->
+<section class="contact-section" id="contacto">
+  <h2>Contacto</h2>
+
+  <div class="contact-buttons">
+    
+    <!-- BOTÓN CORREO -->
+    <a href="mailto:ciro@cianmosma.com" class="btn-contact email">
+      📧 Enviar Correo
+    </a>
+
+    <!-- BOTÓN WHATSAPP -->
+    <a href="https://wa.me/573024099531" target="_blank" class="btn-contact whatsapp">
+      💬 WhatsApp
+    </a>
+
+  </div>
+</section>
+
+<!-- JS -->
+<script src="./js/main.js"></script>
+
+</body>
+</html>
