@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pago Seguro</title>
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/payment.css">
+
+</head>
+<body>
+
+<section class="payment-container">
+
+<div class="payment-card">
+
+<h2>Pago Seguro</h2>
+
+<p>Completa los datos de tu tarjeta</p>
+
+<form id="paymentForm">
+
+<div class="input-group">
+
+<label>Nombre Titular</label>
+
+<input
+type="text"
+placeholder="Leyson David"
+required
+>
+
+</div>
+
+<div class="input-group">
+
+<label>Número Tarjeta</label>
+
+<input
+id="cardNumber"
+type="text"
+maxlength="19"
+placeholder="4242 4242 4242 4242"
+required
+>
+
+</div>
+
+<div class="row">
+
+<div class="input-group">
+
+<label>Expira</label>
+
+<input
+type="text"
+placeholder="MM/AA"
+required
+>
+
+</div>
+
+<div class="input-group">
+
+<label>CVV</label>
+
+<input
+type="password"
+maxlength="3"
+placeholder="123"
+required
+>
+
+</div>
+
+</div>
+
+<div class="input-group">
+
+<label>Email</label>
+
+<input
+type="email"
+placeholder="correo@email.com"
+required
+>
+
+</div>
+
+<button class="pay-btn">
+
+Pagar Ahora
+
+</button>
+
+</form>
+
+<div id="successMessage">
+
+✅ Pago aprobado correctamente.
+
+</div>
+
+</div>
+
+</section>
+
+<script src="js/payment.js"></script>
+
+</body>
+</html>

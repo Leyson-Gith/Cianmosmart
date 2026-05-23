@@ -1,0 +1,86 @@
+/* TABLET */
+
+@media(max-width:992px){
+
+.hero-content h1{
+font-size:42px;
+}
+
+.navbar{
+padding:20px 5%;
+}
+
+}
+
+/* MOVIL */
+
+@media(max-width:768px){
+
+.menu-toggle{
+display:block;
+}
+
+.nav-links{
+
+position:absolute;
+top:85px;
+left:-100%;
+
+width:100%;
+
+background:#111827;
+
+flex-direction:column;
+
+text-align:center;
+
+padding:30px 0;
+
+transition:.4s;
+
+}
+
+.nav-links.active{
+left:0;
+}
+
+.hero-content h1{
+font-size:36px;
+}
+
+.hero-content p{
+font-size:17px;
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+
+.item-carrito{
+flex-direction:column;
+text-align:center;
+}
+
+}
+
+/* CELULARES PEQUEÑOS */
+
+@media(max-width:480px){
+
+.hero{
+padding:20px;
+}
+
+.hero-content h1{
+font-size:30px;
+}
+
+.productos h2{
+font-size:30px;
+}
+
+.logo{
+font-size:22px;
+}
+
+}
